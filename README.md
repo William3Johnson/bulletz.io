@@ -18,7 +18,7 @@ All engine code, logic, networking code, frontend, and backend code are custom w
 
 # Table of Contents
 
-- [Live Game (bulletz.io)](https://bulletz.io)
+- [🎮 Play now! 🎮](https://bulletz.io)
 - [Development](#Development)
 - [Infrastructure](#Infrastructure)
 - [Architecture](#Architecture)
