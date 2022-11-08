@@ -25,7 +25,7 @@ All engine code, logic, networking code, frontend, and backend code are custom w
 
 # Infrastructure
 
-![The complete bulletz architecture](media/bulletz_architecture.png)
+<img src="media/bulletz_architecture.png" width=400>
 
 The system consists of a few pieces
 - [Hugo web client](https://gohugo.io/)
