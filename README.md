@@ -170,9 +170,12 @@ A final thank you to all of the players of [bulletz.io](https://bulletz.io), and
 
 # Servers, Finances and Sponsorship
 
+
 While historically I have run special event servers (i.e. the Halloween server), I currently
 only run the main server.
 This is primarily due to a lack of financing for [bulletz.io](https://bulletz.io).
+
+<img src="media/halloween.png" width=400>
 
 Have an idea for a server?  Want a server with custom powerups?
 Sponsor a server!
