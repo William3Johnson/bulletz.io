@@ -1,6 +1,6 @@
 ![](media/bulletz.png)
 
-<img src="media/base.png" width=400>
+![](media/gameplay.gif)
 
 🎉 __Open Source in celebration of 10k unique players!__ 🎉
 
