@@ -1,0 +1,11 @@
+#swal2-content {
+  color: var(--primary_color);
+}
+
+.swal2-confirm.swal2-styled {
+  background-color: var(--primary_variant);
+}
+
+swal2-popup swal2-modal swal2-show {
+  background-color: black;
+}

@@ -1,0 +1,70 @@
+.stat-font {
+  font-size: .8rem;
+}
+
+#ping-display {
+  text-align: left;
+  position: fixed;
+  line-height: 1.2;
+  bottom: 0;
+  left: 0;
+  bottom: env(safe-area-inset-bottom);
+  left: env(safe-area-inset-left);
+  padding-left: .5rem;
+  padding-bottom: .5rem;
+  z-index: 2;
+}
+
+#player-stats {
+  margin-top: 0;
+  text-align: left;
+  position: fixed;
+  top:   0;
+  left: 0;
+  top: env(safe-area-inset-top);
+  left: env(safe-area-inset-left);
+  padding-left: .5rem;
+  z-index: 2;
+  padding-top: .5rem;
+}
+
+#scoreboard-container {
+  text-align: left;
+  position: fixed;
+  top:   0;
+  right: 0;
+  top: env(safe-area-inset-top);
+  right: env(safe-area-inset-right);
+  padding-right: 0.5rem;
+  z-index: 2;
+  padding-top: 0.5rem;
+}
+
+#scoreboard li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#scoreboard {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: both;
+}
+.score {
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-left: .5ch;
+}
+.label {
+  float: right;
+}
+
+
+@media (max-width: 400px) {
+  .stat-font {
+    font-size: 2.35vw;
+  }
+}

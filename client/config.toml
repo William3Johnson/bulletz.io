@@ -1,0 +1,8 @@
+relativeURLs = true
+disableKinds = ["taxonomy", "taxonomyTerm", "categories", "tags"]
+author = "Luke Wood"
+googleAnalytics='UA-123967093-1'
+images = ["/images/thumbnail.png"]
+[params]
+  favicon = "/icons/rounded.png"
+  description = "bulletz.io is a real time multiple 2d shooter"

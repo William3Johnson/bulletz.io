@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  {{ block "title" . }}<title>bulletz.io</title>{{ end }}
+  {{- partial "core/head.html" . -}}
+  {{ block "extra-head" . }}
+  {{ end }}
+  </head>
+  <body>
+    {{ block "main" . }}
+    {{ end }}
+  </body>
+</html>

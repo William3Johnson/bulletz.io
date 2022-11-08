@@ -1,0 +1,14 @@
+{{ define "extra-head" }}
+  {{ partial "core/stylesheet.html" "post"}}
+  <title>Privacy Policy</title>
+{{ end }}
+{{ define "main" }}
+
+<header class="post-header flex-container justify-content-space-between">
+  {{ partial "home_icon.html" }}
+  <h1 class="primary-color selectable">{{.Title}}</h1>
+  <div style="width: 50px"></div>
+</header>
+
+<center><div id="privacy-policy" style="color: white" class="secondary-color selectable">{{ .Content }}<div/></center>
+{{end}}

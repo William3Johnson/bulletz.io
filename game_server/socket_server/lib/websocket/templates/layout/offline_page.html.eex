@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="bulletz.io is a multiple 2d shooter featuring your favorite memes">
+    <meta name="author" content="Luke Wood">
+
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="<%= static_path(@conn, "/icons/favicon.png") %>">
+    <link rel="apple-touch-startup-image" href="<%= static_path(@conn, "/icons/favicon.png") %>">
+    <link rel="shortcut icon" href="<%= static_path(@conn, "/icons/favicon.png") %>" >
+    <title>We're Offline</title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body style="background-color: black">
+    <center>
+    <h1 class="neon">Offline</h1>
+    <img class="neon-border" src="/images/SadDoge.jpg"></img>
+    <h1 class="neon">Woof</h1>
+  </center>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+{{ define "extra-head"}}
+  {{ partial "core/stylesheet.html" "common" }}
+  {{ partial "core/stylesheet.html" "splash" }}
+  {{ partial "core/stylesheet.html" "game" }}
+  {{ partial "core/stylesheet.html" "world_select" }}
+
+  {{ if not .Site.BuildDrafts }}
+  <!-- Hello -->
+  <script>
+    window.game_server = 'server.bulletz.io'
+  </script>
+  {{ else}}
+  <script>
+    console.log("Running in Dev mode")
+  </script>
+  <script>
+    window.bulletz_dev = true;
+    window.game_server = "localhost:3999";
+    window.wsprotocol = "ws://";
+  </script>
+  {{ end }}
+{{ end }}
+
+{{ define "main" }}
+  <main id="router-root">
+    <div id="loading">
+      <h1>Loading...</h1>
+    </div>
+  </main>
+
+  {{ if not .Site.BuildDrafts }}
+    {{ $js := resources.Get "/js/app.js" }}
+    {{ $secureJS := $js | resources.Fingerprint "sha512" }}
+    <script async defer src="{{ $secureJS.Permalink | relURL }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+  {{else}}
+    {{ $js  := resources.Get "/js/app.js" }}
+    {{ $map := resources.Get "/js/app.js.map" }}
+    <script async defer srcMapUrl="{{ $map.Permalink | relURL }}" src="{{ $js.Permalink | relURL }}"></script>
+  {{end}}
+
+  <script type="text/javascript">
+    // Single Page Apps for GitHub Pages
+    // https://github.com/rafrex/spa-github-pages
+    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+    // ----------------------------------------------------------------------
+    // This script checks to see if a redirect is present in the query string
+    // and converts it back into the correct url and adds it to the
+    // browser's history using window.history.replaceState(...),
+    // which won't cause the browser to attempt to load the new url.
+    // When the single page app is loaded further down in this file,
+    // the correct url will be waiting in the browser's history for
+    // the single page app to route accordingly.
+    (function(l) {
+      if (l.search) {
+        var q = {};
+        l.search.slice(1).split('&').forEach(function(v) {
+          var a = v.split('=');
+          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+        });
+        if (q.p !== undefined) {
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + (q.p || '') +
+            (q.q ? ('?' + q.q) : '') +
+            l.hash
+          );
+        }
+      }
+    }(window.location))
+  </script>
+{{ end }}

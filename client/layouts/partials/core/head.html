@@ -1,0 +1,33 @@
+{{ if not .Site.BuildDrafts }}
+  {{- template "_internal/google_analytics_async.html" . -}}
+{{ end }}
+
+{{- template "_internal/opengraph.html" . }}
+{{- template "_internal/schema.html" . }}
+{{- template "_internal/twitter_cards.html" . }}
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, viewport-fit=cover">
+<meta name="description" content={{$.Site.Params.Description}}>
+<meta name="author" content={{$.Site.Author}}>
+<meta name="copyright" content={{$.Site.Copyright}}>
+<meta name="theme-color" content="#000000">
+
+<link rel="preload" async href="/font/arcade/PressStart2P.woff" crossorigin="anonymous" as="font">
+
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-title" content="bulletz.io">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="/manifest.json">
+
+{{ range partial "core/generate_icons" . }}
+  <link rel="apple-touch-icon" sizes={{.sizes}} href={{.src}}>
+  <link rel="apple-touch-startup-image" sizes={{.sizes}} href={{.src}}>
+  <link rel="shortcut icon" type="image/png" sizes={{.sizes}} href={{.src}}>
+  <link rel="shortcut icon" type="image/png" sizes={{.sizes}} href={{.src}}>
+{{ end }}
+{{- partial "core/pwa.html" . -}}
+<title>bulletz.io</title>

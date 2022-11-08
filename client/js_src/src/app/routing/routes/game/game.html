@@ -1,0 +1,102 @@
+<div id="scoreboard-container">
+  <ol id="scoreboard" class="stat-font">
+  </ol>
+</div>
+
+<div id="player-stats" class="stat-font">
+</div>
+
+
+<div id="ping-display" class="stat-font">
+</div>
+
+<canvas id="game">
+</canvas>
+
+<div id="game-overlay" class="flex-container">
+  <div class="flex-grow-1 flex-container flex-column">
+    <a class="home" id="home">
+      <div class="flex-container flex-row center-content">
+        <a target="_top" href="https://lit.games"><img alt="lit.games" class="lit-games-banner" src="/images/lit-games-banner.png"></a>
+      </div>
+    </a>
+    <div class="flex-grow-1"></div>
+  </div>
+
+  <div class="width-100 flex-container center-content flex-grow-1 flex-shrink-1 flex-column overflow-y-scroll overflow-x-hidden">
+    <h2 id="highscores_title" class="primary-color">HIGHSCORES</h2>
+    <table id="highscores-content">
+      <thead>
+        <tr>
+         <th class="secondary-color">RANK</th>
+         <th class="secondary-color">SCORE</th>
+         <th class="secondary-color">NAME</th>
+        </tr>
+      </thead>
+      <tbody id="score-entries">
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="input-container flex-container justify-content-space-around flex-grow-0">
+    <input id="name-input" aria-label="name" name="name" placeholder="NAME" autocomplete="off"></input>
+  </div>
+
+  <div class="input-container flex-container justify-content-center flex-grow-0">
+    <button id="play" class="splash-button">PLAY</button>
+  </div>
+</div>
+
+
+<div id="load-ad-overlay" class="flex-container hidden">
+  <div class="flex-grow-1">
+  </div>
+  <div class="flex-grow-1">
+  </div>
+  <div class="flex-grow-1">
+  </div>
+  <div class="input-container flex-container justify-content-center flex-grow-0">
+    <p>Joining game...</p>
+  </div>
+  <div class="flex-grow-1">
+  </div>
+</div>
+
+
+
+<div id="join-overlay" class="flex-container hidden">
+  <div class="flex-grow-1">
+  </div>
+  <div class="flex-grow-1">
+  </div>
+  <div class="flex-grow-1">
+  </div>
+  <div class="input-container flex-container justify-content-center flex-grow-0">
+    <button id="join" class="splash-button">JOIN</button>
+  </div>
+  <div class="flex-grow-1">
+  </div>
+</div>
+
+
+<!-- Mobile only secton -->
+<div id="movement_indicator" class="mobile_control movement_indicator hidden">
+  <div id="display_section">
+    <div>Drag To Move</div>
+  </div>
+</div>
+
+<div id="movement_controller" class="mobile_control movement_controller hidden"></div>
+<div id="shoot_controller" class="mobile_control controller shoot_controller hidden">
+  <div id="shoot_dial" class="shoot_dial dial"><div>Aim</div></div>
+</div>

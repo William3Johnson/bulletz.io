@@ -1,0 +1,13 @@
+{{ define "title" }}<title>No Connection</title>{{end}}
+{{ define "extra-head"}}
+
+{{ partial "core/inline-stylesheet.html" "offline"}}
+
+{{end}}
+{{ define "main" }}
+  <center>
+    <h1 class="primary-color">You're Offline</h1>
+    <img class="secondary-border" src="/images/SadDoge.jpg"></img>
+    <h1 class="primary-color">Woof</h1>
+  </center>
+{{end}}

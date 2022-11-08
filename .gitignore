@@ -1,0 +1,10 @@
+erl_crash.dump
+**/*/.DS_Store/
+fprof.trace
+tests.out
+deps/
+_build/
+ssl/
+mix.lock
+SECRET
+*.swp

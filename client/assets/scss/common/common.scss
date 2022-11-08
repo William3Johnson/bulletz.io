@@ -1,0 +1,26 @@
+
+* {
+  font-family: "PressStart2P";
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+@import 'font';
+@import 'globals';
+@import 'helpers';
+@import 'banners';
+@import 'home-button';
+@import 'loading';
+@import 'web_share';
+
+input, textarea {
+  -webkit-user-select: text !important;
+  -khtml-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}

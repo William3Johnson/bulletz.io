@@ -1,0 +1,7 @@
+{{ define "title" }}<title>{{.Title}}</title>{{end}}
+{{ define "extra-head" }}
+  {{ partial "core/stylesheet.html" "post"}}
+{{ end }}
+{{ define "main" }}
+<center><div class="content">{{ .Content }}</div></center>
+{{end}}

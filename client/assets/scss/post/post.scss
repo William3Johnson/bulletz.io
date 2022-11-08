@@ -1,0 +1,37 @@
+@import "../common/globals";
+@import "../common/home-button";
+@import "../common/helpers";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#privacy-policy {
+  max-width: 400px;
+  text-align: left;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: var(--primary_color);
+}
+
+h2 {
+    color: var(--secondary_color);
+}
+
+header.post-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: var(--background_color);
+  border-bottom: solid 1px var(--primary_color);
+}

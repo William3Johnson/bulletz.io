@@ -1,0 +1,9 @@
+{
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "icons": {{ (partialCached "core/generate_icons" .) | jsonify }},
+  "name": "bulletz.io",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}

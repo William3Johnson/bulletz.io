@@ -1,0 +1,13 @@
+
+.floatin {
+    animation: floatin 5s ease-out 1;
+}
+
+@keyframes floatin {
+    from {
+      transform: translate(0,  -100vh);
+    }
+    to   {
+      transform: translate(0, 0px);
+    }
+}
