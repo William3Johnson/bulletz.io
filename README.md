@@ -2,7 +2,7 @@
 
 <img src="media/base.png" width=400>
 
-🎉 __Now Open Source in Celebration of 10k unique players!__ 🎉
+🎉 __Open Source in celebration of 10k unique players!__ 🎉
 
 ---
 
