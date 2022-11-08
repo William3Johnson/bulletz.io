@@ -2,7 +2,7 @@
 
 <img src="media/base.png" width=400>
 
-🎉 __We're Celebrating 10k unique users!__ 🎉
+🎉 __Open Source in Celebration of 10k unique players!__ 🎉
 
 [bulletz.io](https://bulletz.io) is an open source real time multiplayer 2D shooter.
 The backend is written in the functional programming language Elixir.
