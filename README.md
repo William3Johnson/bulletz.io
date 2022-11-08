@@ -1,10 +1,10 @@
 ![](media/bulletz.png)
 
+🎉 __Open Source in celebration of 10k unique players!__ 🎉
+
 ![](media/gameplay.gif)
 
 [🎮 Play now! 🎮](https://bulletz.io)
-
-🎉 __Open Source in celebration of 10k unique players!__ 🎉
 
 ---
 
