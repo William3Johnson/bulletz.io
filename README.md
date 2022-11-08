@@ -4,15 +4,6 @@
 
 🎉 __Now Open Source in Celebration of 10k unique players!__ 🎉
 
-# Table of Contents
-
-- [Live Game (bulletz.io)](https://bulletz.io)
-- [Development](#Development)
-- [Infrastructure](#Infrastructure)
-- [Architecture](#Architecture)
-- [License](#License)
-- [Acknowledgements](#Acknowledgements)
-
 ---
 
 [bulletz.io](https://bulletz.io) is an open source real time multiplayer 2D shooter.
@@ -22,6 +13,15 @@ Fault tolerance is achieved by leveraging erlang's OTP library to create error b
 All engine code, logic, networking code, frontend, and backend code are custom written for [bulletz.io](https://bulletz.io).
 
 [Try out the game live!](https://bulletz.io)
+
+# Table of Contents
+
+- [Live Game (bulletz.io)](https://bulletz.io)
+- [Development](#Development)
+- [Infrastructure](#Infrastructure)
+- [Architecture](#Architecture)
+- [License](#License)
+- [Acknowledgements](#Acknowledgements)
 
 # Infrastructure
 
