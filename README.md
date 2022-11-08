@@ -164,8 +164,6 @@ the sole property of Luke Wood.
 
 # Acknowledgements
 
-By [Luke Wood](https://lukewood.xyz)
-
 Special thanks to [Dave Thomas](https://pragdave.me/) for teaching me Elixir, advising me on OTP structuring, and reviewing the code.
 
 A final thank you to all of the players of [bulletz.io](https://bulletz.io), and to all of my wonderful friends who have playtested [bulletz.io](bulletz.io) along the way.
