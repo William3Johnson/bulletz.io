@@ -167,3 +167,26 @@ the sole property of Luke Wood.
 Special thanks to [Dave Thomas](https://pragdave.me/) for teaching me Elixir, advising me on OTP structuring, and reviewing the code.
 
 A final thank you to all of the players of [bulletz.io](https://bulletz.io), and to all of my wonderful friends who have playtested [bulletz.io](bulletz.io) along the way.
+
+# Servers, Finances and Sponsorship
+
+While historically I have run special event servers (i.e. the Halloween server), I currently
+only run the main server.
+This is primarily due to a lack of financing for [bulletz.io](https://bulletz.io).
+
+Have an idea for a server?  Want a server with custom powerups?
+Sponsor a server!
+
+I do not pay to run more than one server at this time.
+
+Want to sponsor [bulletz.io](https://bulletz.io)?  
+
+[Contact Luke!](https://lukewood.xyz/about)
+
+Some benefits of sponsorship:
+
+- a special thanks in [Acknowledgements](#Acknowledgements)
+- a special thanks on the homepage of that server
+- strong input into the powerups that will be hosted on your server
+
+[Please send me a message via any contact option on lukewood.xyz](https://lukewood.xyz/about)
