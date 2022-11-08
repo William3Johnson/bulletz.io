@@ -2,15 +2,7 @@
 
 <img src="media/base.png" width=400>
 
-🎉 __Open Source in Celebration of 10k unique players!__ 🎉
-
-[bulletz.io](https://bulletz.io) is an open source real time multiplayer 2D shooter.
-The backend is written in the functional programming language Elixir.
-The game runs on a custom game engine that was written with fault tolerance in mind.
-Fault tolerance is achieved by leveraging erlang's OTP library to create error boundaries around each individual player, bullet, and powerup.
-All engine code, logic, networking code, frontend, and backend code are custom written for [bulletz.io](https://bulletz.io).
-
-[Try out the game live!](https://bulletz.io)
+🎉 __Now Open Source in Celebration of 10k unique players!__ 🎉
 
 # Table of Contents
 
@@ -20,6 +12,16 @@ All engine code, logic, networking code, frontend, and backend code are custom w
 - [Architecture](#Architecture)
 - [License](#License)
 - [Acknowledgements](#Acknowledgements)
+
+---
+
+[bulletz.io](https://bulletz.io) is an open source real time multiplayer 2D shooter.
+The backend is written in the functional programming language Elixir.
+The game runs on a custom game engine that was written with fault tolerance in mind.
+Fault tolerance is achieved by leveraging erlang's OTP library to create error boundaries around each individual player, bullet, and powerup.
+All engine code, logic, networking code, frontend, and backend code are custom written for [bulletz.io](https://bulletz.io).
+
+[Try out the game live!](https://bulletz.io)
 
 # Infrastructure
 
