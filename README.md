@@ -1,6 +1,6 @@
 ![](media/bulletz.png)
 
-<img src="media/base.png" width=200>
+<img src="media/base.png" width=400>
 
 🎉 __We're Celebrating 10k unique users!__ 🎉
 
